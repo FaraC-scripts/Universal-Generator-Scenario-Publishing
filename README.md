@@ -12,7 +12,7 @@ ${UG Scenario}
 Click Generate
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Generate.JPG />
 
-Make sure to include "scenario" when entering a writing category into the first placeholder
+Include "scenario" when entering a writing category into the first placeholder
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Include%20Scenario%20as%20Category.JPG width="80%" height="80%" />
 
 Fill out the second placeholder, or leave blank, as normal.
@@ -20,7 +20,7 @@ Fill out the second placeholder, or leave blank, as normal.
 When the generator starts and you get your first output, make sure the Component Sequence line starts with "Scenario." "Character", "Timeline", and "Style" are also critical components.
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Component%20Sequence.JPG />
 
-Though not strictly necessary, having Scenario as the first component will have a few effects on dynamic initial input generation (more on that later). It will also help guide the AI towards open-ended design as opposed to developing a more linear narrative.
+Though not strictly necessary, having Scenario as the first component will have a few effects on dynamic opening generation (more on that later). It will also help guide the AI towards open-ended design as opposed to developing a more linear narrative.
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Scenario%20Example.JPG />
 
 When creating a user-definable protagonist for your scenario, you have serveral options.
@@ -28,7 +28,11 @@ The first option is to create a placeholder card for the user to fill in when th
 To create this card, input "/character -p your character"
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder%20Input.JPG />
 
-This will create an output that replaces what the AI would have generated with placeholders using the request segment of your input, in this case, "your character". However, there will be a few places where manual edits are needed for
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Initial%20Character%20Placeholder.JPG width="70%" height="70%" />
+This will create a placeholder output using the component you have chosen and the request segment of your input, in this case, "your character".
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder.JPG />
+Placeholders can be made with components other than Character, but you will likely need to edit those for grammatical consistency.
+
+The text from Opening Circumstances will make up the bulk of your dynamic opening, if you have it enabled and have a Timeline component.
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Timeline%20Example.JPG />
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
