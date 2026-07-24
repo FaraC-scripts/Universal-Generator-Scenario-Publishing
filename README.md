@@ -29,6 +29,6 @@ To create this card, input "/character -p your character"
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder%20Input.JPG />
 
 This will create an output that replaces what the AI would have generated with placeholders using the request segment of your input, in this case, "your character". However, there will be a few places where manual edits are needed for
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Initial%20Character%20Placeholder.JPG width="1301" height="538" />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Initial%20Character%20Placeholder.JPG width="70%" height="70%" />
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
