@@ -69,6 +69,6 @@ However, not all JSON rules are obeyed. Most importantly, components __are__ all
 
 Once you have this prompt, you will need to copy it to clipboard. The easiest way to do this is to left click on the text of the final output, cick Edit, then ctrl-a, ctrl-v
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Edit.JPG  width=80% height=80%/>
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Edit.JPG  width=70% height=70%/>
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
