@@ -10,6 +10,9 @@ For a basic rundown of Universal Generator, enter /help in the scenario's Genera
 Contents:
 1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
 2. [Convert Prompt to Story Cards]
+3. [Create a New Scenario and Import Story Cards]
+4. [\(optional\) Add Toolbox Scripts]
+5. [\(optional\) Enable Universal Generator Characters]
 
 ### Create a Universal Generator Prompt
 Go to the Universal Generator scenario:
