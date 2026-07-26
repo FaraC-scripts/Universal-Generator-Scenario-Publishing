@@ -44,7 +44,8 @@ Your final output should look very similar to a JSON array of objects:
 - The entire thing should be inside of square brackets, and each component should be inside of curly brackets.
 - Each component should have the component name, the component type, and then the rest of the component's fields and values.
 - Fields and values must be inside of double quotes. All other double quotes present in the text are converted to single quotes.
-- Fields and components must be separated by commas
+- Fields and components must be separated by commas.
+
 However, not all JSON rules are obeyed. Most importantly, components __are__ allowed to have multiple fields with the same name.
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Final%20Output.JPG width=50% height=50%/>
 
