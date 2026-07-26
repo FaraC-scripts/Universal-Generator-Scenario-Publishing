@@ -28,11 +28,19 @@ The first option is to create a placeholder card for the user to fill in when th
 To create this card, input "/character -p your character"
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder%20Input.JPG />
 
-This will create a placeholder output using the component you have chosen and the request segment of your input, in this case, "your character".
+This will create a placeholder output using the component you have chosen and the request segment of your input, in this case, "your character."
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder.JPG />
-Placeholders can be made with components other than Character, but you will likely need to edit those for grammatical consistency.
+Placeholders can be made with components other than Character, but you will likely need to touch those up manually for grammatical consistency.
 
-The text from Opening Circumstances will make up the bulk of your dynamic opening, if you have it enabled and have a Timeline component.
+__The other option for character creation is to configure your scenario to accept a Universal Generator character prompt.__ This allows players much more flexibility when creating a character, and lets them generate it instead of typing into placeholders. More on how to do this later.
+
+The Timeline component's Opening Circumstances field is useful for starting a scenario exactly how you envision; it is also used in the dynamic opening.
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Timeline%20Example.JPG />
+
+The Style component's Tense and Perspective fields are used both in the dynamic opening and several other places to maintain a consistent narrative. While not required, this component is very helpful to include.
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Style%20Example.JPG />
+
+Your final output should look something like this (with more components and useful information where the elipses are)
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Style%20Example.JPG />
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
