@@ -49,6 +49,7 @@ Your final output should look very similar to a JSON array of objects:
 <!-- -->
 
 However, not all JSON rules are obeyed. Most importantly, components __are__ allowed to have multiple fields with the same name.
+
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Final%20Output.JPG width=50% height=50%/>
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
