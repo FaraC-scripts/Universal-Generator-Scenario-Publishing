@@ -4,9 +4,13 @@ A step-by-step guide to creating your own AI Dungeon scenario using Universal Ge
 
 This guide assumes a basic understandning of how to create prompts with Universal Generator.
 For a basic rundown of Universal Generator, enter /help in the scenario's Generate option, or go here:
+
 [Universal Generator User Manual](https://github.com/FaraC-scripts/Universal-Generator-User-Manual/)
 
-### Step 1: Create a Universal Generator Prompt
+Contents:
+1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
+
+### Create a Universal Generator Prompt
 Go to the Universal Generator scenario:
 ${UG Scenario}
 
