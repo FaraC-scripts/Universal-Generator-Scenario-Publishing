@@ -67,7 +67,7 @@ However, not all JSON rules are obeyed. Most importantly, components __are__ all
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Final%20Output.JPG width=50% height=50%/>
 
-Once you have this prompt, you will need to copy it to clipboard. The easiest way to do this is to right click on the text of the final output, cick Edit, then ctrl-a, ctrl-v
+Once you have this prompt, you will need to copy it to clipboard. The easiest way to do this is to left click on the text of the final output, cick Edit, then ctrl-a, ctrl-v
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Edit.JPG  width=80% height=80%/>
 
