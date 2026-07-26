@@ -1,4 +1,5 @@
-#🌌 Universal Generator Scenario Publishing 🌌
+# 🌌 Universal Generator Scenario Publishing 🌌
+
 A step-by-step guide to creating your own AI Dungeon scenario using Universal Generator and (optionally) Toolbox, and publishing it for others to play.
 
 This guide assumes a basic understandning of how to create prompts with Universal Generator.
