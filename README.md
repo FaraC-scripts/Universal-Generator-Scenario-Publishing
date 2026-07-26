@@ -9,6 +9,7 @@ For a basic rundown of Universal Generator, enter /help in the scenario's Genera
 
 Contents:
 1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
+2. [Convert Prompt to Story Cards]
 
 ### Create a Universal Generator Prompt
 Go to the Universal Generator scenario:
@@ -54,7 +55,7 @@ The Style component's Tense and Perspective fields are used both in the dynamic 
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Style%20Example.JPG width=75% height=75%/>
 
-Your final output should look very similar to a JSON array of objects:
+Your final output is the Universal Generator prompt. It should look very similar to a JSON array of objects:
 - The entire thing should be inside of square brackets, and each component should be inside of curly brackets.
 - Each component should have the component name, the component type, and then the rest of the component's fields and values.
 - Fields and values must be inside of double quotes. All other double quotes present in the text are converted to single quotes.
@@ -65,5 +66,9 @@ Your final output should look very similar to a JSON array of objects:
 However, not all JSON rules are obeyed. Most importantly, components __are__ allowed to have multiple fields with the same name.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Final%20Output.JPG width=50% height=50%/>
+
+Once you have this prompt, you will need to copy it to clipboard. The easiest way to do this is to right click on the text of the final output, cick Edit, then ctrl-a, ctrl-v
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Edit.JPG  width=80% height=80%/>
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
