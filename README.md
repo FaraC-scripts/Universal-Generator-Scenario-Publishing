@@ -7,12 +7,14 @@ For a basic rundown of Universal Generator, enter /help in the scenario's Genera
 
 [Universal Generator User Manual](https://github.com/FaraC-scripts/Universal-Generator-User-Manual/)
 
-Contents:
+__Contents__
 1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
-2. [Convert Prompt to Story Cards]
+2. [Convert Prompt to Story Cards](#Convert-Prompt-to-Story-Cards)
 3. [Create a New Scenario and Import Story Cards]
 4. [\(optional\) Add Toolbox Scripts]
-5. [\(optional\) Enable Universal Generator Characters]
+
+__Advanced Features__
+[Allow Players to Provide Universal Generator Protagonists or Add-Ons]
 
 ### Create a Universal Generator Prompt
 Go to the Universal Generator scenario:
@@ -73,5 +75,15 @@ However, not all JSON rules are obeyed. Most importantly, components __are__ all
 Once you have this prompt, you will need to copy it to clipboard. The easiest way to do this is to left click on the text of the final output, cick Edit, then ctrl-a, ctrl-v
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Click%20Edit.JPG  width=70% height=70%/>
+
+### Convert Prompt to Story Cards
+
+With your prompt copied to your clipboard, click on the Play option of the Universal Generator scenario.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Press%20Play.JPG />
+
+Paste your prompt into the first placeholder.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Paste%20Prompt.JPG />
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
