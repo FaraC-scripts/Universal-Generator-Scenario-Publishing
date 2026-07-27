@@ -15,6 +15,8 @@ __Contents__
 
 __Advanced Features__
 [Allow Players to Provide Universal Generator Protagonists or Add-Ons]
+[Schedule Commands in Advance]
+[Configure Default Toolbox Settings]
 
 ### Create a Universal Generator Prompt
 Go to the Universal Generator scenario:
@@ -32,7 +34,7 @@ Fill out the second placeholder, or leave blank, as normal.
 
 When the generator starts and you get your first output, make sure the Component Sequence line starts with "Scenario." "Character", "Timeline", and "Style" are also critical components.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Component%20Sequence.JPG />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Component%20Sequence.JPG /> 
 
 Though not strictly necessary, having Scenario as the first component will have a few effects on dynamic opening generation (more on that later). It will also help guide the AI towards open-ended design as opposed to developing a more linear narrative.
 
@@ -85,5 +87,9 @@ With your prompt copied to your clipboard, click on the Play option of the Unive
 Paste your prompt into the first placeholder.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Paste%20Prompt.JPG />
-
+<!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
+
+Before you start creating components for your scenario, it is important to understand the differences between __story cards__ and __prompt cards.__ When you use Play to create a scenario from the final output of Generate, each component gets converted into a card in the Story Cards section of your new scenario.
+
+__Prompt cards__ are what components get converted into by default. They require a scenario running Toolbox to function, as they do not use and should not have triggers. Prompt cards will always have "Prompt" as the first word of their card's Type.
