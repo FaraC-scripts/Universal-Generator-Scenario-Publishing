@@ -42,7 +42,7 @@ To create this card, input "/character -p your character"
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder%20Input.JPG />
 
-This will create a placeholder output using the component you have chosen and the request segment of your input, in this case, "your character."
+This will create a placeholder output using the component you have chosen and the request segment of your input, in this case, "your character." Note that the placeholders use "!{...}" instead of "${...}". They will get properly converted later, but technical limitations require the substitution. 
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Character%20Placeholder.JPG />
 
