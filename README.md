@@ -120,7 +120,7 @@ If you found Universal Generator helpful when making your scenario, it would be 
 
 Or put the universal generator sticker somewhere in your scenario image.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/Universal%20Generator%20Sticker.png width=25% height=25% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/Universal%20Generator%20Sticker.png width=12.5% height=12.5% />
 
 ## Add Toolbox
 
