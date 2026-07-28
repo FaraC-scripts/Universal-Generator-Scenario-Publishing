@@ -111,6 +111,10 @@ Create a new scenario as normal. Then, import the story cards you saved in the p
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Import%20Story%20Cards.JPG width=75% height=75% />
 
+If you're not using Toolbox, that's it. You're done. Publish the scenario as normal. If you found Universal Generator helpful when making your scenario, I would appreciate it if you include the following somewhere in your scenario's description:
+> Made with Universal Generator:
+> ${UG Scenario}
+
 ## Add Toolbox
 
 
