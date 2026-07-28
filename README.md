@@ -97,7 +97,7 @@ Paste your prompt into the first placeholder.
 
 Go to your Story Cards and export them. This will save them as a file you will need for the next step
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Export%20Story%20Cards.JPG width=40% height=40% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Export%20Story%20Cards.JPG width=33% height=33% />
 
 You may notice that there are four settings cards in addition to the ones you generated. If you are using Toolbox for your scenario, you don't need to do anything about these and shouldn't bother changing them. They will be deleted and recreated when your players start their own scenarios. If you want to configure the default Toolbox settings your players start their scenarios with, that is covered in its own topic later.
 
@@ -105,7 +105,7 @@ If you are not using Toolbox, you should delete all four cards in the Settings c
 
 ## Create a New Scenario and Import Story Cards
 
-## \(optional\) Add Toolbox
+## (optional) Add Toolbox
 
 ## Dynamic Openings
 
