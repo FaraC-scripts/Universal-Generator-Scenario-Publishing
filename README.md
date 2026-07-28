@@ -10,8 +10,8 @@ For a basic rundown of Universal Generator, enter /help in the scenario's Genera
 __Contents__
 1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
 2. [Convert Prompt to Story Cards](#Convert-Prompt-to-Story-Cards)
-3. [Create a New Scenario and Import Story Cards]
-4. [\(optional\) Add Toolbox]
+3. [Create a New Scenario and Import Story Cards](#Create-a-New-Scenario-and-Import-Story-Cards)
+4. [\(optional\) Add Toolbox](#\(optional\)-Add-Toolbox)
 
 __Advanced Features__
 - [Dynamic Openings](#Dynamic-Openings)
@@ -102,6 +102,10 @@ Go to your Story Cards and export them. This will save them as a file you will n
 You may notice that there are four settings cards in addition to the ones you generated. If you are using Toolbox for your scenario, you don't need to do anything about these and shouldn't bother changing them. They will be deleted and recreated when your players start their own scenarios. If you want to configure the default Toolbox settings your players start their scenarios with, that is covered in its own topic later.
 
 If you are not using Toolbox, you should delete all four cards in the Settings category before exporting them. They won't cause any issue if you leave them, as they have no triggers, but they might confuse players.
+
+## Create a New Scenario and Import Story Cards
+
+## \(optional\) Add Toolbox
 
 ## Dynamic Openings
 
