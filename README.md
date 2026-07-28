@@ -2,16 +2,16 @@
 
 A step-by-step guide to creating your own AI Dungeon scenario using Universal Generator and (optionally) Toolbox, and publishing it for others to play.
 
-This guide assumes a basic understandning of how to create prompts with Universal Generator.
+This guide assumes a basic understanding of how to create prompts with Universal Generator.
 For a basic rundown of Universal Generator, enter /help in the scenario's Generate option, or go here:
 
-[https://github.com/FaraC-scripts/Universal-Generator-User-Manual/](https://github.com/FaraC-scripts/Universal-Generator-User-Manual/)
+[https://github.com/FaraC-scripts/Universal-Generator-Basics/](https://github.com/FaraC-scripts/Universal-Generator-Basics/)
 
 __Contents__
 1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
 2. [Convert Prompt to Story Cards](#Convert-Prompt-to-Story-Cards)
 3. [Create a New Scenario and Import Story Cards](#Create-a-New-Scenario-and-Import-Story-Cards)
-4. [\(optional\) Add Toolbox](#\(optional\)-Add-Toolbox)
+4. [\(optional\) Add Toolbox](#Add-Toolbox)
 
 __Advanced Features__
 - [Dynamic Openings](#Dynamic-Openings)
@@ -42,6 +42,8 @@ Fill out the second placeholder, or leave blank, as normal.
 When the generator starts and you get your first output, make sure the Component Sequence line starts with "Scenario." "Character", "Timeline", and "Style" are also critical components.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Component%20Sequence.JPG /> 
+
+___NOTE: If you are not planning on using Toolbox for your scenario, make sure all of the components you generate are formatted as story cards, not as prompt cards, by including the -s option. Prompt cards do not get triggers, and expect additional handling from Toolbox. For more information on the differences between prompt and story cards, read the Basics guide linked above.___
 
 Though not strictly necessary, having Scenario as the first component will have a few effects on dynamic opening generation (more on that later). It will also help guide the AI towards open-ended design as opposed to developing a more linear narrative.
 
@@ -105,7 +107,12 @@ If you are not using Toolbox, you should delete all four cards in the Settings c
 
 ## Create a New Scenario and Import Story Cards
 
-## (optional) Add Toolbox
+Create a new scenario as normal. Then, import the story cards you saved in the previous step.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Import%20Story%20Cards.JPG width=75% height=75% />
+
+## Add Toolbox
+
 
 ## Dynamic Openings
 
