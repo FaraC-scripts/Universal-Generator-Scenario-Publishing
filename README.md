@@ -123,7 +123,7 @@ If you're not using Toolbox, that's it. You're done. Finish creating and publish
 
 ## Dynamic Openings
 
-Dynamic Openings create a small block of text that replaces the traditional opening section of a scenario.
+Dynamic Openings create a small block of text that replaces the traditional Opening plot component of a scenario.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Opening.JPG width=75% height=75% />
 
@@ -145,7 +145,7 @@ To enable Dynamic Openings, you need to change the Dynamic Opening field of DEFA
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Setting.JPG width=90% height=90% />
 
-___NOTE: Even if Dynamic Openings is enabled, AI Dungeon will have issues if there is no default opening at all. Make sure the normal opening field has some text in it.___
+___NOTE: Even if Dynamic Openings is enabled, AI Dungeon will have issues if the Opening plot component under the Setup tab has no text in it. Make sure to put some text there.___
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 
