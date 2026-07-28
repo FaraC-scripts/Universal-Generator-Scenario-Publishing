@@ -14,14 +14,11 @@ __Contents__
 4. [\(optional\) Add Toolbox]
 
 __Advanced Features__
-
-[Dynamic Openings](#Dynamic-Openings)
-
-[Allow Players to Provide Universal Generator Protagonists or Add-Ons]
-
-[Schedule Commands in Advance]
-
-[Configure Default Toolbox Settings]
+- [Dynamic Openings](#Dynamic-Openings)
+- [Allow Players to Provide Universal Generator Protagonists or Add-Ons]
+- [Schedule Commands in Advance]
+- [Configure Default Toolbox Settings]
+  
 
 All Advanced Features require Toolbox. For more information about Toolbox, go here:
 
