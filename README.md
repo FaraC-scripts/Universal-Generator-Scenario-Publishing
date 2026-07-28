@@ -96,7 +96,24 @@ Paste your prompt into the first placeholder.
 
 ## Dynamic Openings
 
-Dynamic Openings create a small block of text a are used in the Play option of Universal Generator, but are disabled in Toolbox by default.
+Dynamic Openings create a small block of text that replaces the traditional opening section of a scenario.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Opening.JPG width=75% height=75% />
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Scenario%20Card.JPG width=40% height=40%/>
+
+Instead, you get a scenario start based on its prompt cards. This is the dynamic opening created when pasting the prompt created in the above tutorial into Play, highlighted to distinguish different parts.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Marked.JPG />
+
+🟡 This starting sentence changes based on the presence or absence of a Narrative or Scenario prompt card.
+
+🔵 If a Timeline prompt card with an Opening Sequence field is present, that text will be used here. That field of the Timeline card will also be hidden from the AI, so it never sees the opening twice. If there are no Opening Circumstances, generic text will be used based the presence or absence of Narrative or Scenario.
+
+🟢 This uses the protagonist's name if a prompt card with "${Name} - Character (Protagonist)" as its title is present. Otherwise, it generically uses "the protagonist." In this example, the protagonist's name is a placeholder the player can fill in. If player-provided prompts are enabled and they provide a protagonist prompt, that name will be used. 
+
+🔴 This uses the perspective and tense from the Style prompt card, if available. If not, it defaults to second-person, present tense.
+
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 
