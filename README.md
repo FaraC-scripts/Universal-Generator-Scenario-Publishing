@@ -104,7 +104,7 @@ Dynamic Openings create a small block of text that replaces the traditional open
 
 Instead, you get a scenario start based on its prompt cards. This is the dynamic opening created when pasting the prompt created in the above tutorial into Play, highlighted to distinguish different parts.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Marked.JPG />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Marked.png />
 
 🟡 This starting sentence changes based on the presence or absence of a Narrative or Scenario prompt card.
 
