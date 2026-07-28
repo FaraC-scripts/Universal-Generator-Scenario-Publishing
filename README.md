@@ -114,6 +114,9 @@ Instead, you get a scenario start based on its prompt cards. This is the dynamic
 
 🔴 This uses the perspective and tense from the Style prompt card, if available. If not, it defaults to second-person, present tense.
 
+To enable Dynamic Openings, you need to change the Dynamic Opening field of DEFAULT_SETTINGS in Toolbox's library in your scenario's scripts from "false" to "true". It is under the "Hidden" category, as it is not an option players can see or change in-game.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Setting.png width=90% height=90% />
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 
