@@ -118,7 +118,7 @@ If you found Universal Generator helpful when making your scenario, it would be 
 >
 > ${UG Scenario}
 
-Or put the universal generator sticker somewhere in your scenario image. (You can click the image and download it from GitHub)
+Or put the universal generator sticker somewhere in your scenario image (you can click the image and download it from GitHub).
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/Universal%20Generator%20Sticker.png width=12.5% height=12.5% />
 
