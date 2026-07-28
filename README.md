@@ -111,12 +111,14 @@ Create a new scenario as normal. Then, import the story cards you saved in the p
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Import%20Story%20Cards.JPG width=75% height=75% />
 
-If you're not using Toolbox, that's it. You're done. Publish the scenario as normal. If you found Universal Generator helpful when making your scenario, I would appreciate it if you include the following somewhere in your scenario's description:
+If you're not using Toolbox, that's it. You're done. Finish creating and publish the scenario as normal. If you found Universal Generator helpful when making your scenario, please include the following somewhere in your scenario description:
 > Made with Universal Generator:
 >
 > ${UG Scenario}
 
 ## Add Toolbox
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Copy%20Code%20from%20Github.JPG />
 
 
 ## Dynamic Openings
@@ -142,6 +144,8 @@ Instead, you get a scenario start based on its prompt cards. This is the dynamic
 To enable Dynamic Openings, you need to change the Dynamic Opening field of DEFAULT_SETTINGS in Toolbox's library in your scenario's scripts from "false" to "true". It is under the "Hidden" category, as it is not an option players can see or change in-game.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Setting.JPG width=90% height=90% />
+
+___NOTE: Even if Dynamic Openings is enabled, AI Dungeon will have issues if there is no default opening at all. Make sure the normal opening field has some text in it.___
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 
