@@ -17,6 +17,7 @@ __Advanced Features__
 - [Dynamic Openings](#Dynamic-Openings)
 - [Allow Players to Provide Universal Generator Protagonists or Add-Ons]
 - [Schedule Commands in Advance]
+- [Prompt Ordering]
 - [Configure Default Toolbox Settings]
   
 
@@ -93,6 +94,14 @@ With your prompt copied to your clipboard, click on the Play option of the Unive
 Paste your prompt into the first placeholder.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Paste%20Prompt.JPG />
+
+Go to your Story Cards and export them. This will save them as a file you will need for the next step
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Export%20Story%20Cards.JPG width=40% height=40% />
+
+You may notice that there are four settings cards in addition to the ones you generated. If you are using Toolbox for your scenario, you don't need to do anything about these and shouldn't bother changing them. They will be deleted and recreated when your players start their own scenarios. If you want to configure the default Toolbox settings your players start their scenarios with, that is covered in its own topic later.
+
+If you are not using Toolbox, you should delete all four cards in the Settings category before exporting them. They won't cause any issue if you leave them, as they have no triggers, but they might confuse players.
 
 ## Dynamic Openings
 
