@@ -167,14 +167,21 @@ ___NOTE: Even if Dynamic Openings is enabled, AI Dungeon will have issues if the
 
 ## Universal Generator Protagonists and Add-Ons
 
-If you use Toolbox in your scenario, it can be configured to accept Universal Generator prompts from your players. 
+If you use Toolbox in your scenario, it can be configured to accept Universal Generator final outputs (prompts) from your players. 
 
 The two placeholders you can create are the __protagonist placeholder__ and the __add-on placeholder__.
 
 The __protagonist placeholder__ accepts a prompt from the player and filters it to find a Character component with "Character (Protagonist)" in its name. Failing that, it will find the first Character component. It will also find any other Character-type components associated with the protagonist, such as Appearance or Equipment. It takes these components and uses them to __replace any already-existing "Character (Protagonist)" prompt card__. It will also remove Appearance, Personality, and Speech cards associated with the old protagonist. Other components from the player-provided protagonist like Equipment and Abilities will override old components of the same type.
 
-To enable the protagonist placeholder, create a story card with the custom type "Placeholder" and the name "Placeholder - Protagonist". The story card's entry needs to include a normal AI Dungeon placeholder to allow the player somewhere to paste their prompt, e.g., "${Paste UG Protagonist Here}". It can be anything, though, as long as there is "${}" in the entry with some text between the brackets.
+To enable the protagonist placeholder, create a story card with the custom type "Placeholder" and the name "Placeholder - Protagonist". The story card's entry needs to include a normal AI Dungeon placeholder to allow the player somewhere to paste their prompt, e.g., "${🌌 Paste a Universal Generator protagonist here}". It can be anything, though, as long as there is "${}" in the entry with some text between the brackets.
 
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Protagonist%20Placeholder.JPG width=40% height=40%/>
+
+The __add-on placeholder__ accepts a prompt from the player and adds every component in that prompt as a prompt card. If you already have Universal Generator prompt cards in your scenario, the add-on prompt cards will be placed below them. There is no filtration or special handling for the add-ons.
+
+To enable the protagonist placeholder, create a story card with the custom type "Placeholder" and the name "Placeholder - Add-On". The story card's entry needs to include a normal AI Dungeon placeholder to allow the player somewhere to paste their prompt, e.g., "${🌌 Paste a Universal Generator prompt here}". It can be anything, though, as long as there is "${}" in the entry with some text between the brackets.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Add-On%20Placeholder.JPG width=40% height=40%/>
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 
