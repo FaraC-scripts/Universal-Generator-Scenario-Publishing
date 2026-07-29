@@ -126,7 +126,7 @@ Or put the universal generator sticker somewhere in your scenario image (you can
 
 In the Details tab of your scenario, under Scripting, make sure the toggle is set to Scripts Enabled.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Enable%20Scripts.JPG width=70 height=70 />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Enable%20Scripts.JPG width=70% height=70% />
 
 Click Edit Scripts to open the scenario's script editor.
 
