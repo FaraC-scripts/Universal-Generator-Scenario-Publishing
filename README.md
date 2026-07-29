@@ -124,8 +124,20 @@ Or put the universal generator sticker somewhere in your scenario image (you can
 
 ## Add Toolbox
 
+In the Details tab of your scenario, under Scripting, make sure the toggle is set to Scripts Enabled.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Enable%20Scripts.JPG width=70 height=70 />
+
+Click Edit Scripts to open the scenario's script editor.
+
+Go to [https://github.com/FaraC-scripts/Toolbox/tree/main/Scripts](https://github.com/FaraC-scripts/Toolbox/tree/main/Scripts)
+
+For each file (Library, Input, Context, Output), copy the script and paste it into the corresponding tab of your script editor.
+
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Copy%20Code%20from%20Github.JPG />
 
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Paste%20into%20Editor.JPG />
 
 ## Dynamic Openings
 
