@@ -15,7 +15,7 @@ __Contents__
 
 __Advanced Features__
 - [Dynamic Openings](#Dynamic-Openings)
-- [Allow Players to Provide Universal Generator Protagonists or Add-Ons]
+- [Universal Generator Protagonists and Add-Ons](#Universal-Generator-Protagonists-and-Add-Ons)
 - [Schedule Commands in Advance]
 - [Prompt Ordering]
 - [Configure Default Toolbox Settings]
@@ -164,6 +164,17 @@ To enable Dynamic Openings, you need to change the Dynamic Opening field of DEFA
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Dynamic%20Opening%20Setting.JPG width=90% height=90% />
 
 ___NOTE: Even if Dynamic Openings is enabled, AI Dungeon will have issues if the Opening plot component under the Setup tab has no text in it. Make sure to put some text there.___
+
+## Universal Generator Protagonists and Add-Ons
+
+If you use Toolbox in your scenario, it can be configured to accept Universal Generator prompts from your players. 
+
+The two placeholders you can create are the __protagonist placeholder__ and the __add-on placeholder__.
+
+The __protagonist placeholder__ accepts a prompt from the player and filters it to find a Character component with "Character (Protagonist)" in its name. Failing that, it will find the first Character component. It will also find any other Character-type components associated with the protagonist, such as Appearance or Equipment. It takes these components and uses them to __replace any already-existing "Character (Protagonist)" prompt card__. It will also remove Appearance, Personality, and Speech cards associated with the old protagonist. Other components from the player-provided protagonist like Equipment and Abilities will override old components of the same type.
+
+To enable the protagonist placeholder, create a story card with the custom type "Placeholder" and the name "Placeholder - Protagonist". The story card's entry needs to include a normal AI Dungeon placeholder to allow the player somewhere to paste their prompt, e.g., "${Paste UG Protagonist Here}". It can be anything, though, as long as there is "${}" in the entry with some text between the brackets.
+
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 
