@@ -16,9 +16,9 @@ __Contents__
 __Advanced Features__
 - [Dynamic Openings](#Dynamic-Openings)
 - [Universal Generator Protagonists and Add-Ons](#Universal-Generator-Protagonists-and-Add-Ons)
-- [Schedule Commands in Advance]
-- [Prompt Ordering]
-- [Configure Default Toolbox Settings]
+- [Schedule Commands in Advance](#Schedule-Commands-in-Advance)
+- [Prompt Ordering](#Prompt-Ordering)
+- [Configure Default Toolbox Settings](#Configure-Default-Toolbox-Settings)
   
 
 All Advanced Features require Toolbox. For more information about Toolbox, go here:
@@ -179,12 +179,16 @@ To enable the protagonist placeholder, create a story card with the custom type 
 
 The __add-on placeholder__ accepts a prompt from the player and adds every component in that prompt as a prompt card. If you already have Universal Generator prompt cards in your scenario, the add-on prompt cards will be placed below them. There is no filtration or special handling for the add-ons.
 
-To enable the protagonist placeholder, create a story card with the custom type "Placeholder" and the name "Placeholder - Add-On". The story card's entry needs to include a normal AI Dungeon placeholder to allow the player somewhere to paste their prompt, e.g., "${🌌 Paste a Universal Generator prompt here}". It can be anything, though, as long as there is "${}" in the entry with some text between the brackets.
+To enable the add-on placeholder, create a story card with the custom type "Placeholder" and the name "Placeholder - Add-On". The story card's entry needs to include a normal AI Dungeon placeholder to allow the player somewhere to paste their prompt, e.g., "${🌌 Paste a Universal Generator prompt here}". It can be anything, though, as long as there is "${}" in the entry with some text between the brackets.
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Add-On%20Placeholder.JPG width=40% height=40%/>
+
+## Schedule Commands in Advance
+## Prompt Ordering
+## Configure Default Toolbox Settings
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
-
+<!--
 Before you start creating components for your scenario, it is important to understand the differences between __story cards__ and __prompt cards.__ When you use Play to create a scenario from the final output of Generate, each component gets converted into a card in the Story Cards section of your new scenario.
-
+<!--
 __Prompt cards__ are what components get converted into by default. They require a scenario running Toolbox to function, as they do not use and should not have triggers. Prompt cards will always have "Prompt" as the first word of their card's Type.
