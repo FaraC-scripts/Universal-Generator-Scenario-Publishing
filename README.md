@@ -143,11 +143,11 @@ Finally, you will either need to disable AI Dungeons built-in AI Instructions, o
 
 If you plan on using Toolbox's Default Instructions, you need to create a blank AI Instructions component in your scenario __and press enter to create an empty line__. If you don't create one, or leave the instructions entirely blank by leaving out the empty line, AI Dungeon will include its own default instructions __in addition to the ones Toolbox provides__.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Blank%20AI%20Insructions.JPG width=65% height=65% />
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Blank%20AI%20Instructions.JPG width=65% height=65% />
 
 If you want to use your own instructions, or AI Dungeon's default AI Instructions, you should disable Toolbox's default instructions to conserve context. To do so, go to the Library section of your scripts, and under the Context section of DEFAULT_SETTINGS change "Default Instructions" to false.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Change%20Default%20Insructions.JPG/>
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Change%20Default%20Instructions.JPG/>
 
 ## Dynamic Openings
 
