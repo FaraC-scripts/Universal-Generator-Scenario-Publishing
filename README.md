@@ -194,6 +194,15 @@ To enable the add-on placeholder, create a story card with the custom type "Plac
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Add-On%20Placeholder.JPG width=40% height=40%/>
 
 ## Schedule Commands in Advance
+
+As a scenario creator, you can schedule automatic Toolbox tool use in advance for your players. To do so, create a story card with the custom type "Schedule" and the name "Auto Tool Schedule". Format the entry as shown below. It should not have any triggers.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Auto%20Tool%20Schedule%20Card.JPG width=65% height=65%/>
+
+The easiest way to do this is to play any Toolbox scenario and enter the auto commands you want. For example, entering "/motive -a5 the protagonist" produces the above. You will then have to copy the card to your scenario.
+
+For more details on scheduling commands, see the [Toolbox Documentation](https://github.com/FaraC-scripts/Toolbox/).
+
 ## Prompt Ordering
 ## Configure Default Toolbox Settings
 <!--
