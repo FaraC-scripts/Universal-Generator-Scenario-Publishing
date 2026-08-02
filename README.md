@@ -16,10 +16,9 @@ __Contents__
 __Advanced Features__
 - [Dynamic Openings](#Dynamic-Openings)
 - [Universal Generator Protagonists and Add-Ons](#Universal-Generator-Protagonists-and-Add-Ons)
+- [Configure Default Toolbox Settings](#Configure-Default-Toolbox-Settings)
 - [Schedule Commands in Advance](#Schedule-Commands-in-Advance)
 - [Prompt Ordering](#Prompt-Ordering)
-- [Configure Default Toolbox Settings](#Configure-Default-Toolbox-Settings)
-  
 
 All Advanced Features require Toolbox. For more information about Toolbox, go here:
 
@@ -193,18 +192,34 @@ To enable the add-on placeholder, create a story card with the custom type "Plac
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Add-On%20Placeholder.JPG width=40% height=40%/>
 
+## Configure Default Toolbox Settings
+
+You can configure the default Toolbox settings your player's scenarios will start with by editing the DEFAULT_SETTINGS object in the Library section of your scenario's scripts. Do not change any of the text in quotation marks. Only change numbers and true|false values.
+
+Aside from Dynamic Openings (discussed above) these are the same settings your players will have access to. For details on exactly what each setting does, see the Toolbox documentation:
+
+[https://github.com/FaraC-scripts/Toolbox/](https://github.com/FaraC-scripts/Toolbox/).
+
 ## Schedule Commands in Advance
 
 As a scenario creator, you can schedule automatic Toolbox tool use in advance for your players. To do so, create a story card with the custom type "Schedule" and the name "Auto Tool Schedule". Format the entry as shown below. It should not have any triggers.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Auto%20Tool%20Schedule%20Card.JPG width=65% height=65%/>
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Auto%20Tool%20Schedule%20Card.JPG width=35% height=35%/>
 
 The easiest way to do this is to play any Toolbox scenario and enter the auto commands you want. For example, entering "/motive -a5 the protagonist" produces the above. You will then have to copy the card to your scenario.
 
-For more details on scheduling commands, see the [Toolbox Documentation](https://github.com/FaraC-scripts/Toolbox/).
+For more details on scheduling commands, see the Toolbox documentation:
+
+[https://github.com/FaraC-scripts/Toolbox/](https://github.com/FaraC-scripts/Toolbox/).
 
 ## Prompt Ordering
-## Configure Default Toolbox Settings
+
+Prompt cards are presented to the AI in a specific order. This can be important, as, for instance, you likely want the card for Kerry's Equipment to come pretty closely after the card for Kerry. By default, prompts are ordered in the same sequence they are in in the final Generator output.
+
+While the player has access to a Prompt Sequence settings card to adjust the order of prompts mid-scenario, __when creating a scenario you cannot use a Prompt Sequence card__ to order prompt cards. It will be assumed to be an artifact of the scenario creation process and get deleted, like all other Settings-type cards.
+
+Instead, if you wish to order your prompts after creating a scenario, you need to do so by ordering the story cards. To do this, export your scenario's story cards, open them in a text or code editor (they will be in JSON), and make sure your prompt cards are in the correct order there. Then, re-import the file. 
+
 <!--
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
 <!--
