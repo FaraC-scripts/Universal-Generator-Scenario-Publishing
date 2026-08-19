@@ -13,7 +13,7 @@ __Contents__
 3. [Create a New Scenario and Import Story Cards](#Create-a-New-Scenario-and-Import-Story-Cards)
 4. [\(optional\) Add Toolbox](#Add-Toolbox)
 
-__Advanced Features__
+__Advanced Topics__
 - [Dynamic Openings](#Dynamic-Openings)
 - [Universal Generator Protagonist and Background Placeholders](#Universal-Generator-Protagonist-and-Background-Placeholders)
 - [Configure Default Toolbox Settings](#Configure-Default-Toolbox-Settings)
