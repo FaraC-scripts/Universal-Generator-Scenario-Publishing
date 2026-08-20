@@ -151,6 +151,8 @@ If you want to use your own instructions, or AI Dungeon's default AI Instruction
 
 # Advanced Topics
 
+[Dynamic Openings](#Dynamic-Openings) - [Universal Generator Protagonist and Background Placeholders](#Universal-Generator-Protagonist-and-Background-Placeholders) - [Configure Default Toolbox Settings](#Configure-Default-Toolbox-Settings) - [Schedule Commands in Advance](#Schedule-Commands-in-Advance) - [Prompt Ordering](#Prompt-Ordering)
+
 ## Dynamic Openings
 
 Dynamic Openings create a small block of text that replaces the traditional Opening plot component of a scenario.
