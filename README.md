@@ -148,6 +148,9 @@ If you want to use your own instructions, or AI Dungeon's default AI Instruction
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Change%20Default%20Instructions.JPG/>
 
+
+# Advanced Topics
+
 ## Dynamic Openings
 
 Dynamic Openings create a small block of text that replaces the traditional Opening plot component of a scenario.
@@ -219,10 +222,3 @@ Prompt cards are presented to the AI in a specific order. This can be important,
 While the player has access to a Prompt Sequence settings card to adjust the order of prompts mid-scenario, __when creating a scenario you cannot use a Prompt Sequence card__ to order prompt cards. It will be assumed to be an artifact of the scenario creation process and get deleted, like all other Settings-type cards.
 
 Instead, if you wish to order your prompts after creating a scenario, you need to do so by ordering the story cards. To do this, export your scenario's story cards, open them in a text or code editor (they will be in JSON), and make sure your prompt cards are in the correct order there. Then, re-import the file. 
-
-<!--
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Stickers/With%20Toolbox%20Sticker.png width="200" />
-<!--
-Before you start creating components for your scenario, it is important to understand the differences between __story cards__ and __prompt cards.__ When you use Play to create a scenario from the final output of Generate, each component gets converted into a card in the Story Cards section of your new scenario.
-<!--
-__Prompt cards__ are what components get converted into by default. They require a scenario running Toolbox to function, as they do not use and should not have triggers. Prompt cards will always have "Prompt" as the first word of their card's Type.
