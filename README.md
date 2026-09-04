@@ -205,7 +205,7 @@ To enable the background placeholder, create a story card with the custom type "
 
 ## Configure Default Toolbox Settings
 
-You can configure the default Toolbox settings your player's scenarios will start with by editing the DEFAULT_SETTINGS object in the Library section of your scenario's scripts. Do not change any of the text in quotation marks. Only change numbers and true|false values.
+You can configure the default Toolbox settings your player's adventures will start with by editing the DEFAULT_SETTINGS object in the Library section of your scenario's scripts. Do not change any of the text in quotation marks. Only change numbers and true|false values.
 
 Aside from Dynamic Openings (discussed above) these are the same settings your players will have access to. For details on exactly what each setting does, see the Toolbox documentation:
 
