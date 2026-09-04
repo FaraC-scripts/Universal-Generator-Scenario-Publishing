@@ -40,7 +40,7 @@ Fill out the second placeholder, or leave blank, as normal.
 
 When the generator starts and you get your first output, make sure the Component Sequence line starts with "Scenario." "Character", "Backstory", and "Style" are also critical components.
 
-___NOTE: If you are not planning on using Toolbox for your scenario, make sure all of the components you generate are formatted as story cards, not as prompt cards, by including the -s option. Prompt cards do not get triggers, and expect additional handling from Toolbox. For more information on the differences between prompt and story cards, read the Basics guide linked above.___
+___NOTE:___ If you are not planning on using Toolbox for your scenario, make sure all of the components you generate are formatted as story cards, not as prompt cards, by including the -s option. Prompt cards do not get triggers, and expect additional handling from Toolbox. For more information on the differences between prompt and story cards, read the Basics guide linked above.
 
 Though not strictly necessary, having Scenario as the first component will have a few effects on dynamic opening generation (more on that later). It will also help guide the AI towards open-ended design as opposed to developing a more linear narrative.
 
