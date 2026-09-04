@@ -123,7 +123,27 @@ Or put the universal generator sticker somewhere in your scenario image (you can
 
 ## Add Toolbox
 
-In the Details tab of your scenario, under Scripting, make sure the toggle is set to Scripts Enabled.
+You have two options for adding __Toolbox__ to your scenario: __installation via AI Dungeon__ or __manual installation__.
+
+### ⚡ Installing through AI Dungeon ⚡
+
+Go to the __🧰 Toolbox 🧰__ script page:
+
+${Toolbox Script}
+
+Click the __Save__ button.
+
+When creating your own scenario, go to the __Details__ tab, then scroll down to the __Scripting__ section and ensure the toggle there is set to __Scripts Enabled__. 
+
+Near the bottom of __Details__, in the __Scripts__ section, there is an __+Add Scripts__ button. Click that. Then, under your __Saved Scripts__ should be  __🧰 Toolbox 🧰__.
+
+Click Add. Make sure the toggle is on. And that's it, you're done.
+
+___NOTE:___ This method is quick, but has one __serious limitation__: The script does not actually load the code into your script browser, so you cannot modify __Default Settings__ (and thus also cannot use a __Dynamic Opening__, which defaults to off). If you want to be able to change these settings, you need to do a __manual installation__. 
+
+### ⬇️ Manual Installation ⬇️
+
+Go to the __Details__ tab of your scenario, then scroll down to the __Scripting__ section and ensure the toggle there is set to __Scripts Enabled__. 
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Enable%20Scripts.JPG width=70% height=70% />
 
@@ -135,19 +155,9 @@ For each file (Library, Input, Context, Output), copy the script and paste it in
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Copy%20Code%20from%20Github.JPG />
 
-
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Paste%20into%20Editor.JPG />
 
-Finally, you will either need to disable AI Dungeons built-in AI Instructions, or Toolbox's Default Instructions, as both add their own AI Instructions. Having both enabled doesn't conflict, and in fact might make the final outputs slightly better, but it will increase the amount of context used for little additional gain.
-
-If you plan on using Toolbox's Default Instructions, you need to create a blank AI Instructions component in your scenario __and press enter to create an empty line__. If you don't create one, or leave the instructions entirely blank by leaving out the empty line, AI Dungeon will include its own default instructions __in addition to the ones Toolbox provides__.
-
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Blank%20AI%20Instructions.JPG width=65% height=65% />
-
-If you want to use your own instructions, or AI Dungeon's default AI Instructions, you should disable Toolbox's default instructions to conserve context. To do so, go to the Library section of your scripts, and under the Context section of DEFAULT_SETTINGS change "Default Instructions" to false.
-
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Change%20Default%20Instructions.JPG/>
-
+When all four scripts are pasted in, make sure to click __Save__. 
 
 # Advanced Topics
 
@@ -204,6 +214,10 @@ You can configure the default Toolbox settings your player's scenarios will star
 Aside from Dynamic Openings (discussed above) these are the same settings your players will have access to. For details on exactly what each setting does, see the Toolbox documentation:
 
 [https://github.com/FaraC-scripts/Toolbox/](https://github.com/FaraC-scripts/Toolbox/).
+
+___NOTE___: If you enable Toolbox's Default Instructions, you need to create a blank AI Instructions component in your scenario __and press enter to create an empty line__. If you don't create one, or leave the instructions entirely blank by leaving out the empty line, AI Dungeon will include its own default instructions __in addition to the ones Toolbox provides__.
+
+<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Blank%20AI%20Instructions.JPG width=65% height=65% />
 
 ## Schedule Commands in Advance
 
