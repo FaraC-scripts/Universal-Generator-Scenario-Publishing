@@ -221,11 +221,9 @@ ___NOTE___: If you enable Toolbox's Default Instructions, you need to create a b
 
 ## Schedule Commands in Advance
 
-As a scenario creator, you can schedule automatic Toolbox tool use in advance for your players. To do so, create a story card with the custom type "Schedule" and the name "Auto Tool Schedule". Format the entry as shown below. It should not have any triggers.
+As a scenario creator, you can schedule automatic Toolbox tool use in advance for your players. To do so, create a story card with the custom type "Schedule" and the name "Tool Schedule". Format the entry as shown below. It should not have any triggers.
 
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Auto%20Tool%20Schedule%20Card.JPG width=35% height=35%/>
-
-The easiest way to do this is to play any Toolbox scenario and enter the auto commands you want. For example, entering "/motive -a5 the protagonist" produces the above. You will then have to copy the card to your scenario.
+The easiest way to do this is to play any Toolbox scenario and schedule the commands you want with tool commands. For example, entering "/motive -s5 the protagonist". You will then have to copy the card to your scenario.
 
 For more details on scheduling commands, see the Toolbox documentation:
 
@@ -235,6 +233,6 @@ For more details on scheduling commands, see the Toolbox documentation:
 
 Prompt cards are presented to the AI in a specific order. This can be important, as, for instance, you likely want the card for Kerry's Equipment to come pretty closely after the card for Kerry. By default, prompts are ordered in the same sequence they are in in the final Generator output.
 
-While the player has access to a Prompt Sequence settings card to adjust the order of prompts mid-scenario, __when creating a scenario you cannot use a Prompt Sequence card__ to order prompt cards. It will be assumed to be an artifact of the scenario creation process and get deleted, like all other Settings-type cards.
+While the player has access to a Prompt Sequence settings card to adjust the order of prompts mid-scenario, __when creating a scenario you cannot use a Prompt Sequence card__ to order prompt cards.
 
 Instead, if you wish to order your prompts after creating a scenario, you need to do so by ordering the story cards. To do this, export your scenario's story cards, open them in a text or code editor (they will be in JSON), and make sure your prompt cards are in the correct order there. Then, re-import the file. 
