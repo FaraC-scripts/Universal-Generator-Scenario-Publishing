@@ -5,7 +5,7 @@ A step-by-step guide to creating a publishable AI Dungeon scenario using Univers
 This guide assumes a basic understanding of how to create prompts with Universal Generator.
 For a basic rundown of Universal Generator, enter /help in the scenario's Generate option, or go here:
 
-[https://github.com/FaraC-scripts/Universal-Generator-Basics/](https://github.com/FaraC-scripts/Universal-Generator-Basics/)
+[https://github.com/FaraC-scripts/Universal-Generator/](https://github.com/FaraC-scripts/Universal-Generator/)
 
 __Contents__
 1. [Create a Universal Generator Prompt](#Create-a-Universal-Generator-Prompt)
@@ -111,7 +111,7 @@ If you're not using Toolbox, that's it. You're done. Finish creating and publish
 If you found Universal Generator helpful when making your scenario, it would be appreciated if you included the following somewhere in your scenario description:
 > Made with Universal Generator:
 >
-> ${UG Scenario}
+> https://play.aidungeon.com/scenario/Kj-pypp8vkwc/universal-generator?share=true&published=true
 
 Or put the universal generator sticker somewhere in your scenario image (you can click the image and download it from GitHub).
 
@@ -125,7 +125,7 @@ You have two options for adding __Toolbox__ to your scenario: __installation via
 
 Go to the __🧰 Toolbox 🧰__ script page:
 
-${Toolbox Script}
+[https://play.aidungeon.com/scenario/2U2w89VS3-Zq/toolbox?share=true&published=true](https://play.aidungeon.com/scenario/2U2w89VS3-Zq/toolbox?share=true&published=true)
 
 Click the __Save__ button.
 
