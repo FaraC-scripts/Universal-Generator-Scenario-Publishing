@@ -58,7 +58,7 @@ This will create a placeholder output using the component you have chosen and th
 
 Placeholders can be made with components other than Character, but you will likely need to touch those up manually for grammatical consistency.
 
-__The other option for character creation is to configure your scenario to accept a Universal Generator character prompt.__ This allows players much more flexibility when creating a character, and lets them generate it instead of typing into placeholders. More on how to do this later.
+__The other option for character creation is to configure your scenario to accept a Universal Generator character prompt.__ This allows players much more flexibility when creating a character, and lets them generate it instead of typing into placeholders. More on how to do this [here.](#Universal-Generator-Protagonist-and-Background-Placeholders)
 
 The Backstory component's Opening Circumstances field is useful for starting a scenario exactly how you envision; it is also used in the __dynamic opening__.
 
