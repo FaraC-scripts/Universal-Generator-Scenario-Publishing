@@ -38,9 +38,7 @@ Include "scenario" when entering a writing category into the first placeholder.
 
 Fill out the second placeholder, or leave blank, as normal.
 
-When the generator starts and you get your first output, make sure the Component Sequence line starts with "Scenario." "Character", "Timeline", and "Style" are also critical components.
-
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Component%20Sequence.JPG /> 
+When the generator starts and you get your first output, make sure the Component Sequence line starts with "Scenario." "Character", "Backstory", and "Style" are also critical components.
 
 ___NOTE: If you are not planning on using Toolbox for your scenario, make sure all of the components you generate are formatted as story cards, not as prompt cards, by including the -s option. Prompt cards do not get triggers, and expect additional handling from Toolbox. For more information on the differences between prompt and story cards, read the Basics guide linked above.___
 
@@ -48,7 +46,7 @@ Though not strictly necessary, having Scenario as the first component will have 
 
 <img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Scenario%20Example.JPG />
 
-When creating a user-definable protagonist for your scenario, you have serveral options.
+When creating a user-definable protagonist for your scenario, you have several options.
 The first option is to create a placeholder card for the user to fill in when they start the scenario.
 To create this card, input "/character -p your character"
 
@@ -62,9 +60,7 @@ Placeholders can be made with components other than Character, but you will like
 
 __The other option for character creation is to configure your scenario to accept a Universal Generator character prompt.__ This allows players much more flexibility when creating a character, and lets them generate it instead of typing into placeholders. More on how to do this later.
 
-The Timeline component's Opening Circumstances field is useful for starting a scenario exactly how you envision; it is also used in the dynamic opening.
-
-<img src=https://github.com/FaraC-scripts/Universal-Generator-Scenario-Publishing/blob/main/Images/Guide%20Images/Timeline%20Example.JPG  width=90% height=90%/>
+The Backstory component's Opening Circumstances field is useful for starting a scenario exactly how you envision; it is also used in the __dynamic opening__.
 
 The Style component's Tense and Perspective fields are used both in the dynamic opening and several other places to maintain a consistent narrative. While not required, this component is very helpful to include.
 
@@ -177,7 +173,7 @@ Instead, you get a scenario start based on its prompt cards. This is the dynamic
 
 🟡 This starting sentence changes based on the presence or absence of a Narrative or Scenario prompt card.
 
-🔵 If a Timeline prompt card with an Opening Sequence field is present, that text will be used here. That field of the Timeline card will also be hidden from the AI, so it never sees the opening twice. If there are no Opening Circumstances, generic text will be used based the presence or absence of Narrative or Scenario.
+🔵 If a Backstory prompt card with an Opening Sequence field is present, that text will be used here. That field of the Backstory card will also be hidden from the AI, so it never sees the opening twice. If there are no Opening Circumstances, generic text will be used based the presence or absence of Narrative or Scenario.
 
 🟢 This uses the protagonist's name if a prompt card with "${Name} - Character (Protagonist)" as its title is present. Otherwise, it generically uses "the protagonist." In this example, the protagonist's name is a placeholder the player can fill in. If player-provided prompts are enabled and they provide a protagonist prompt, that name will be used. 
 
